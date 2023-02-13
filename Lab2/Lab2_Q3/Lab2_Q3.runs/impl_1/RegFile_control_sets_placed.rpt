@@ -1,0 +1,95 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Mar 30 21:27:16 2022
+| Host         : LAPTOP-FR2OG12K running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file RegFile_control_sets_placed.rpt
+| Design       : RegFile
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    17 |
+|    Minimum number of control sets                        |    17 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    30 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    17 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     7 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              44 |           15 |
+| No           | No                    | Yes                    |              28 |           12 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               4 |            1 |
+| Yes          | No                    | Yes                    |              88 |           34 |
+| Yes          | Yes                   | No                     |              30 |            7 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------------------------------------------------------------------------------------+-------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |                                          Enable Signal                                          |        Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+-------------------------------------------------------------------------------------------------+-------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | signal_edge0/button_num[3]_i_1_n_0                                                              |                               |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | jitter_clr5/sel                                                                                 | jitter_clr5/clear             |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | jitter_clr1/cnt[4]_i_2__0_n_0                                                                   | jitter_clr1/cnt[4]_i_1__0_n_0 |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | jitter_clr0/cnt[4]_i_2_n_0                                                                      | jitter_clr0/cnt[4]_i_1_n_0    |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | jitter_clr3/rstn                                                                                | jitter_clr3/cnt[3]_i_1__4_n_0 |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | jitter_clr2/cnt[4]_i_2__1_n_0                                                                   | jitter_clr2/cnt[4]_i_1__1_n_0 |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | jitter_clr4/cnt[4]_i_2__2_n_0                                                                   | jitter_clr4/cnt[4]_i_1__2_n_0 |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | dpra[7]_i_1_n_0                                                                                 | jitter_clr3/rstn              |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | num_1[7]_i_1_n_0                                                                                | jitter_clr3/rstn              |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | buttonedge2/E[0]                                                                                | jitter_clr3/rstn              |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG | clk_cnt                                                                                         | jitter_clr3/rstn              |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | buttonedge2/button_r1_reg_0[0]                                                                  | jitter_clr3/rstn              |               10 |             16 |         1.60 |
+|  clk_IBUF_BUFG |                                                                                                 | jitter_clr3/rstn              |               12 |             28 |         2.33 |
+|  clk_IBUF_BUFG | r1[15]_i_1_n_0                                                                                  | jitter_clr3/rstn              |               10 |             32 |         3.20 |
+|  clk_IBUF_BUFG |                                                                                                 |                               |               15 |             44 |         2.93 |
+|  clk_IBUF_BUFG | dist_mem_gen_0/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_0_127_0_0_i_1_n_0   |                               |               16 |             64 |         4.00 |
+|  clk_IBUF_BUFG | dist_mem_gen_0/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_128_255_0_0_i_1_n_0 |                               |               16 |             64 |         4.00 |
++----------------+-------------------------------------------------------------------------------------------------+-------------------------------+------------------+----------------+--------------+
+
+

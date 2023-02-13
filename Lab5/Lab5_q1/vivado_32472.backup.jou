@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 27 19:02:50 2022
+# Process ID: 32472
+# Current directory: D:/desktop/COD_Labs/Lab5/Lab5_q1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32944 D:\desktop\COD_Labs\Lab5\Lab5_q1\Lab5_q1.xpr
+# Log file: D:/desktop/COD_Labs/Lab5/Lab5_q1/vivado.log
+# Journal file: D:/desktop/COD_Labs/Lab5/Lab5_q1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/desktop/COD_Labs/Lab5/Lab5_q1/Lab5_q1.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+connect_hw_server -allow_non_jtag
+connect_hw_server -allow_non_jtag
+connect_hw_server -allow_non_jtag

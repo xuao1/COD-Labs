@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Mar 19 21:26:00 2022
+# Process ID: 8928
+# Current directory: D:/desktop/COD_Labs/Lab1/Lab1_6bit_ALU/Lab1_6bit_ALU.runs/impl_1
+# Command line: vivado.exe -log topv.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source topv.tcl -notrace
+# Log file: D:/desktop/COD_Labs/Lab1/Lab1_6bit_ALU/Lab1_6bit_ALU.runs/impl_1/topv.vdi
+# Journal file: D:/desktop/COD_Labs/Lab1/Lab1_6bit_ALU/Lab1_6bit_ALU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source topv.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 13 19:09:01 2022
+# Process ID: 30152
+# Current directory: D:/desktop/COD_Labs/Lab4/Lab4_cpu - sort/Lab4_cpu.runs/Memory_synth_1
+# Command line: vivado.exe -log Memory.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Memory.tcl
+# Log file: D:/desktop/COD_Labs/Lab4/Lab4_cpu - sort/Lab4_cpu.runs/Memory_synth_1/Memory.vds
+# Journal file: D:/desktop/COD_Labs/Lab4/Lab4_cpu - sort/Lab4_cpu.runs/Memory_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Memory.tcl -notrace

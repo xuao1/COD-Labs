@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="BlockRAM0_r_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1648353301">
+  <File Type="PA-TCL" Name="BlockRAM0_r.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="BlockRAM0_r_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="BlockRAM0_r_reports.tcl"/>
+  <File Type="RDS-RDS" Name="BlockRAM0_r.vds"/>
+  <File Type="RDS-UTIL" Name="BlockRAM0_r_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="BlockRAM0_r_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="BlockRAM0_r.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="BlockRAM0_r_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="BlockRAM0_r_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/BlockRAM0_r">
+    <File Path="$PSRCDIR/sources_1/ip/BlockRAM0_r/BlockRAM0_r.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="BlockRAM0_r"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/BlockRAM0_r">
+    <File Path="$PSRCDIR/sources_1/ip/BlockRAM0_r/BlockRAM0_r.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="BlockRAM0_r"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

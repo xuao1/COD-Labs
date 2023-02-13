@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 22 23:09:21 2022
+# Process ID: 55012
+# Current directory: D:/desktop/COD_Labs/Lab1/Lab1_FLS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12372 D:\desktop\COD_Labs\Lab1\Lab1_FLS\Lab1_FLS.xpr
+# Log file: D:/desktop/COD_Labs/Lab1/Lab1_FLS/vivado.log
+# Journal file: D:/desktop/COD_Labs/Lab1/Lab1_FLS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/desktop/COD_Labs/Lab1/Lab1_FLS/Lab1_FLS.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/desktop/COD_Labs/Lab1/Lab1_FLS/Lab1_FLS.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/desktop/COD_Labs/Lab1/Lab1_FLS/Lab1_FLS.srcs/sim_1/new/flsm.v w ]
+add_files -fileset sim_1 D:/desktop/COD_Labs/Lab1/Lab1_FLS/Lab1_FLS.srcs/sim_1/new/flsm.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source flsm.tcl
+close_sim
+launch_simulation
+launch_simulation
+source flsm.tcl
+close_sim
+launch_simulation
+source flsm.tcl
+close_sim
+launch_simulation
+source flsm.tcl
+close_sim
+launch_simulation
+source flsm.tcl
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source flsm.tcl
+close_sim
+launch_simulation
+source flsm.tcl
+update_compile_order -fileset sources_1
+close_sim

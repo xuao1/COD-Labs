@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/desktop/COD_Labs/Lab2/Lab2_Q2/Lab2_Q2.gen/sources_1/ip/BlockRAM0_r/sim/BlockRAM0_r.v,1648353301,verilog,,D:/desktop/COD_Labs/Lab2/Lab2_Q2/Lab2_Q2.gen/sources_1/ip/BlockRAM0_w/sim/BlockRAM0_w.v,,BlockRAM0_r,,,,,,,,
+D:/desktop/COD_Labs/Lab2/Lab2_Q2/Lab2_Q2.gen/sources_1/ip/BlockRAM0_w/sim/BlockRAM0_w.v,1648352767,verilog,,D:/desktop/COD_Labs/Lab2/Lab2_Q2/Lab2_Q2.gen/sources_1/ip/RAM0/sim/RAM0.v,,BlockRAM0_w,,,,,,,,
+D:/desktop/COD_Labs/Lab2/Lab2_Q2/Lab2_Q2.gen/sources_1/ip/RAM0/sim/RAM0.v,1648351747,verilog,,D:/desktop/COD_Labs/Lab2/Lab2_Q2/Lab2_Q2.srcs/sim_1/new/Mem_m.v,,RAM0,,,,,,,,
+D:/desktop/COD_Labs/Lab2/Lab2_Q2/Lab2_Q2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/desktop/COD_Labs/Lab2/Lab2_Q2/Lab2_Q2.srcs/sim_1/new/Mem_m.v,1648353397,verilog,,,,Mem_m,,,,,,,,

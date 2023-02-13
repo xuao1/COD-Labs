@@ -1,0 +1,192 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 10 19:57:28 2022
+# Process ID: 81504
+# Current directory: D:/desktop/COD_Labs/Lab4/Lab4_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent53752 D:\desktop\COD_Labs\Lab4\Lab4_cpu\Lab4_cpu.xpr
+# Log file: D:/desktop/COD_Labs/Lab4/Lab4_cpu/vivado.log
+# Journal file: D:/desktop/COD_Labs/Lab4/Lab4_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.xpr
+update_compile_order -fileset sources_1
+close [ open D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/new/pdu.v w ]
+add_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/new/pdu.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property -dict [list CONFIG.coefficient_file {D:/desktop/COD_Labs/Lab4/test.coe}] [get_ips instrcution]
+generate_target all [get_files  D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci]
+catch { config_ip_cache -export [get_ips -all instrcution] }
+export_ip_user_files -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -no_script -sync -force -quiet
+reset_run instrcution_synth_1
+launch_runs instrcution_synth_1 -jobs 4
+wait_on_run instrcution_synth_1
+export_simulation -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -directory D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/sim_scripts -ip_user_files_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files -ipstatic_source_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/modelsim} {questa=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/questa} {riviera=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/riviera} {activehdl=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+set_property -dict [list CONFIG.coefficient_file {D:/desktop/COD_Labs/Lab4/test.coe}] [get_ips instrcution]
+generate_target all [get_files  D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci]
+catch { config_ip_cache -export [get_ips -all instrcution] }
+export_ip_user_files -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -no_script -sync -force -quiet
+reset_run instrcution_synth_1
+launch_runs instrcution_synth_1 -jobs 4
+wait_on_run instrcution_synth_1
+export_simulation -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -directory D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/sim_scripts -ip_user_files_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files -ipstatic_source_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/modelsim} {questa=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/questa} {riviera=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/riviera} {activehdl=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+launch_simulation
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+set_property -dict [list CONFIG.coefficient_file {D:/desktop/COD_Labs/Lab4/test.coe}] [get_ips instrcution]
+generate_target all [get_files  D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci]
+catch { config_ip_cache -export [get_ips -all instrcution] }
+export_ip_user_files -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -no_script -sync -force -quiet
+reset_run instrcution_synth_1
+launch_runs instrcution_synth_1 -jobs 4
+wait_on_run instrcution_synth_1
+export_simulation -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -directory D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/sim_scripts -ip_user_files_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files -ipstatic_source_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/modelsim} {questa=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/questa} {riviera=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/riviera} {activehdl=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+set_property -dict [list CONFIG.coefficient_file {D:/desktop/COD_Labs/Lab4/test.coe}] [get_ips instrcution]
+generate_target all [get_files  D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci]
+catch { config_ip_cache -export [get_ips -all instrcution] }
+export_ip_user_files -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -no_script -sync -force -quiet
+reset_run instrcution_synth_1
+launch_runs instrcution_synth_1 -jobs 4
+wait_on_run instrcution_synth_1
+export_simulation -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -directory D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/sim_scripts -ip_user_files_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files -ipstatic_source_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/modelsim} {questa=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/questa} {riviera=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/riviera} {activehdl=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+launch_simulation
+source cpu_m.tcl
+set_property -dict [list CONFIG.coefficient_file {D:/desktop/COD_Labs/Lab4/test.coe}] [get_ips instrcution]
+generate_target all [get_files  D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci]
+catch { config_ip_cache -export [get_ips -all instrcution] }
+export_ip_user_files -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -no_script -sync -force -quiet
+reset_run instrcution_synth_1
+launch_runs instrcution_synth_1 -jobs 4
+wait_on_run instrcution_synth_1
+export_simulation -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -directory D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/sim_scripts -ip_user_files_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files -ipstatic_source_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/modelsim} {questa=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/questa} {riviera=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/riviera} {activehdl=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+set_property -dict [list CONFIG.coefficient_file {D:/desktop/COD_Labs/Lab4/test.coe}] [get_ips instrcution]
+generate_target all [get_files  D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci]
+catch { config_ip_cache -export [get_ips -all instrcution] }
+export_ip_user_files -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -no_script -sync -force -quiet
+reset_run instrcution_synth_1
+launch_runs instrcution_synth_1 -jobs 4
+wait_on_run instrcution_synth_1
+export_simulation -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -directory D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/sim_scripts -ip_user_files_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files -ipstatic_source_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/modelsim} {questa=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/questa} {riviera=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/riviera} {activehdl=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+launch_simulation
+source cpu_m.tcl
+set_property -dict [list CONFIG.coefficient_file {D:/desktop/COD_Labs/Lab4/test.coe}] [get_ips instrcution]
+generate_target all [get_files  D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci]
+catch { config_ip_cache -export [get_ips -all instrcution] }
+export_ip_user_files -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -no_script -sync -force -quiet
+reset_run instrcution_synth_1
+launch_runs instrcution_synth_1 -jobs 4
+wait_on_run instrcution_synth_1
+export_simulation -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -directory D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/sim_scripts -ip_user_files_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files -ipstatic_source_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/modelsim} {questa=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/questa} {riviera=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/riviera} {activehdl=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+launch_simulation
+source cpu_m.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.coefficient_file {D:/desktop/COD_Labs/Lab4/Lab3_test.coe}] [get_ips instrcution]
+generate_target all [get_files  D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci]
+catch { config_ip_cache -export [get_ips -all instrcution] }
+export_ip_user_files -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -no_script -sync -force -quiet
+reset_run instrcution_synth_1
+launch_runs instrcution_synth_1 -jobs 4
+wait_on_run instrcution_synth_1
+export_simulation -of_objects [get_files D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sources_1/ip/instrcution/instrcution.xci] -directory D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/sim_scripts -ip_user_files_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files -ipstatic_source_dir D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/modelsim} {questa=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/questa} {riviera=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/riviera} {activehdl=D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim
+launch_simulation
+source cpu_m.tcl
+close_sim

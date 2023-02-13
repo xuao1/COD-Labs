@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 23 16:17:34 2022
+# Process ID: 3204
+# Current directory: D:/desktop/COD_Labs/Lab1/Lab1_6bit_ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25224 D:\desktop\COD_Labs\Lab1\Lab1_6bit_ALU\Lab1_6bit_ALU.xpr
+# Log file: D:/desktop/COD_Labs/Lab1/Lab1_6bit_ALU/vivado.log
+# Journal file: D:/desktop/COD_Labs/Lab1/Lab1_6bit_ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/desktop/COD_Labs/Lab1/Lab1_6bit_ALU/Lab1_6bit_ALU.xpr

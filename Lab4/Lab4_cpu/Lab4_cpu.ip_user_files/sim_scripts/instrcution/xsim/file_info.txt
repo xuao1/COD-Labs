@@ -1,0 +1,2 @@
+instrcution.v,verilog,xil_defaultlib,../../../../Lab4_cpu.gen/sources_1/ip/instrcution/sim/instrcution.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/COD_Labs/Lab1/Lab1_32bitsALU/Lab1_32bitsALU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/COD_Labs/Lab1/Lab1_32bitsALU/Lab1_32bitsALU.srcs/sources_1/new/HexPlay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/COD_Labs/Lab1/Lab1_32bitsALU/Lab1_32bitsALU.srcs/sources_1/new/button_edge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signal_edge
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/COD_Labs/Lab1/Lab1_32bitsALU/Lab1_32bitsALU.srcs/sources_1/new/jitter_clr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jitter_clr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/COD_Labs/Lab1/Lab1_32bitsALU/Lab1_32bitsALU.srcs/sources_1/new/topv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/desktop/COD_Labs/Lab1/Lab1_32bitsALU/Lab1_32bitsALU.srcs/sim_1/new/Lab1_32bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab1_32bits
