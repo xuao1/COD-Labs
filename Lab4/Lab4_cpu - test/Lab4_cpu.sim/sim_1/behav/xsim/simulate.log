@@ -1,5 +1,0 @@
-Vivado Simulator 2020.2
-Time resolution is 1 ps
-WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
-WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
-$finish called at time : 502 ns : File "D:/desktop/COD_Labs/Lab4/Lab4_cpu/Lab4_cpu.srcs/sim_1/new/cpu_m.v" Line 64

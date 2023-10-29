@@ -1,2 +1,0 @@
-instruction.v,verilog,xil_defaultlib,../../../../Lab5_q1.gen/sources_1/ip/instruction/sim/instruction.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v

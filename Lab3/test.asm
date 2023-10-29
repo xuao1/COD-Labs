@@ -1,7 +1,7 @@
 .text
 
-addi a0,a0,0x00ff
-addi s1,s1,0x0100		# 连接led，可以直观看到结果，假设led的地址为0
+li a0,0x00ff
+li s1,0x7f10		# 连接数码管，可以直观看到结果
 
 sw a0,0(s1)		# test sw
 addi a0,x0,1		
@@ -33,7 +33,7 @@ beq a2,a5,Lable		# test beq	a2==5 ,junp to Lable
 jal x0,LOOP		# test jal
 
 Lable:
-addi a0,x0,0x00ff
+li a0,0xff
 sw a0,0(s1)
 
 jalr x0,0(a3)		# test jalr
